@@ -1,0 +1,8 @@
+APScheduler==3.10.4
+greenlet==3.0.3
+psycopg2-binary==2.9.9
+pytz==2023.3.post1
+six==1.16.0
+SQLAlchemy==2.0.25
+typing_extensions==4.9.0
+tzlocal==5.2
