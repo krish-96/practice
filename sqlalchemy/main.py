@@ -62,7 +62,7 @@ session = Session()
 # Creating an instance of PErson model
 # p1 = Person(1, 'Gopi', 'B', 27, 123)
 # p2 = Person(2, 'Krishna', 'B', 28, 234)
-# p3 = Person(3, 'King', 'B', 26, 345)
+p3 = Person(3, 'King', 'B', 26, 345)
 # print(p1.id)
 # u1 = User('BGK', p1.id)
 # u2 = User('GK', p2.id)
@@ -71,6 +71,8 @@ session = Session()
 
 # Adding the Created person models(Multiple) instances into the database
 # session.add_all([p2, p3])
+session.add(p3)
+
 # session.add(u1)
 # session.add(u2)
 
